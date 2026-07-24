@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    background-color: rgb(57, 0, 111);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
