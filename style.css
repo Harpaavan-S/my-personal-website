@@ -1,10 +1,15 @@
 body {
     text-align: center;
-    background-color: rgb(57, 0, 111);
-    color: white;
+    background-color: rgb(12, 0, 23);
+    background-image: linear-gradient(rgb(12, 0, 23), rgb(98, 0, 255));
+    color: rgb(255, 243, 224);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    align-content: center;
-    min-height: 100vh;
-    margin: 0;
 }
 
+a:link {
+    color: cyan;
+}
+
+a:visited {
+    color: rgb(156, 117, 255);
+}
