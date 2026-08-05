@@ -1,9 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    text-align: center;
     background-color: rgb(12, 0, 23);
-    background-image: linear-gradient(rgb(12, 0, 23), rgb(98, 0, 255));
     color: rgb(255, 243, 224);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 100px;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    z-index: 100;
+    background-color: rgba(173, 173, 173, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+}
+
+.nav-logo a:link {
+    font-size: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 1s ease;
+}
+
+.nav-logo a:visited {
+    font-size: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    transform: 1s ease;
+}
+
+.nav-logo a:hover {
+    color: rgb(197, 192, 255)
+}
+
+.nav-links {
+    display: flex;
+    gap: 75px;
+    list-style: none;
+
+}
+
+.nav-links a:link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+    transition: 1s ease;
+}
+
+.nav-links a:visited {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    transition: 1s ease;
+}
+
+.nav-links a:hover {
+    color: rgb(197, 192, 255)
+}
+
+#hero {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hero h1 {
+    font-size: 90px;
+}
+
+#hero p {
+    font-size: 30px;
+    color: rgba(200, 200, 200, 0.75)
+}
+
+#about {
+    display: flex;
+}
+
+.aboutme-card {
+
+}
+
+.skill-part {
+
+}
+
+.skill-icon {
+
+}
+
+.icon {
+
+}
+
+#projects {
+
+}
+
+.project.card {
+
+}
+
+#experience {
+
+}
+
+.experience-card {
+
+}
+
+.date {
+
+}
+
+#award {
+
+}
+
+.award-card {
+
+}
+
+#contact {
+
 }
 
 a:link {
