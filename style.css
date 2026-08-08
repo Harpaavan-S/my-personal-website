@@ -27,22 +27,22 @@ nav {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 15px 40px;
     z-index: 100;
     background-color: rgba(173, 173, 173, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(25px);
+    backdrop-filter: blur(15px);
 }
 
 .nav-logo a:link {
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
     color: #ffffff;
     transition: 1s ease;
 }
 
 .nav-logo a:visited {
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
     color: #ffffff;
     transform: 1s ease;
@@ -54,7 +54,7 @@ nav {
 
 .nav-links {
     display: flex;
-    gap: 75px;
+    gap: 50px;
     list-style: none;
 
 }
@@ -62,14 +62,14 @@ nav {
 .nav-links a:link {
     text-decoration: none;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 20px;
     transition: 1s ease;
 }
 
 .nav-links a:visited {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 20px;
     transition: 1s ease;
 }
 
@@ -80,39 +80,113 @@ nav {
 #hero {
     position: relative;
     display: flex;
-    height: 100vh;
+    height: 100dvh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
 #hero h1 {
-    font-size: 90px;
+    font-size: 64px;
 }
 
 #hero p {
-    font-size: 30px;
+    font-size: 15px;
     color: rgba(200, 200, 200, 0.75)
 }
 
 #about {
+    padding: 0px 60px;
+    height: 100dvh;
+}
+
+#about h2 {
+    font-size: 36px;
+    margin-bottom: 80px;
+}
+
+.about-stuff {
     display: flex;
+    gap: 30px;
+    align-items: center;
+
 }
 
 .aboutme-card {
+    flex: 1;
+    font-size: 16px;
+    color: rgba(250, 250, 250, 0.75);
+    padding: 20px 25px;
+    border: 1px solid rgba(225, 225, 225, 0.5);
+    border-radius: 15px;
+    background-color: rgba(173, 173, 173, 0.1);
+    backdrop-filter: blur(10px);
+}
 
+.skills {
+    flex: 1.3;
+}
+
+.bloops {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .skill-part {
 
 }
 
-.skill-icon {
+.skill-part h3 {
+    font-size: 20px;
+}
 
+.skill-icon {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgba(225, 225, 225, 0.5);
+    border-radius: 15px;
+    background-color: rgba(173, 173, 173, 0.1);
+    backdrop-filter: blur(10px);
+    margin-top: 7px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.skill-icon span {
+    opacity: 0;
+    font-size: 10px;
+    position: absolute;
+    left: 50%;
+    bottom: 110%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    transition: 0.5s;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 0.5px solid rgba(225, 225, 225, 0.5);
+    border-radius: 10px;
+    background-color: rgba(200, 200, 200, 0.25);
+    backdrop-filter: blur(10px);
+    pointer-events: none;
+}
+
+.skill-icon:hover span {
+    opacity: 1;
 }
 
 .icon {
-
+    height: 35px;
+    width: 35px;
 }
 
 #projects {
