@@ -31,7 +31,7 @@ git clone https://github.com/Harpaavan-S/my-personal-website
 
 2. If you would like to run it from your computer, you can host the `index.html` file in your default browser to see the changes. You can also install any extensions in your editor to help you preview the site live as you make changes. I used these while editing my code. 
 
-3. Now you are free to edit the file and custom it the site if you would like. There is a JS file, but it is empty, as I plan to use JS later to upgrade this site. For now I have nothing in it, but you are free to edit it and add your own JS into the website. Please credit this template should you use it.
+3. Now you are free to edit the file and custom it the site if you would like. Please credit this template should you use it.
 
 ## AI Usage
 
