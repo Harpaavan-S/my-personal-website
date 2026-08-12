@@ -27,11 +27,11 @@ If you would like to clone the repository:
 git clone https://github.com/Harpaavan-S/my-personal-website
 ```
 
-2. If you would like to host it from your computer, download the Live Preview extension by Microsoft to view it in the browser. **Note:** I can confirm this works in VSCode, but I am not sure about other editors. If you cannot use this extension, try using some other ones which are similar.
+2. Open the files in your preferred editor. From here, you can edit the code for the website.
 
-3. After downloading the extension, set it up to open in a new browser tab. You can do this by navigating to the `index.html` file, and then in the top right corner you will see a symbol that looks like a book with a magnifying glass, click that to set up a live link. If it opens within your editor, then just copy paste the link into your browser. 
+2. If you would like to run it from your computer, you can host the `index.html` file in your default browser to see the changes. You can also install any extensions in your editor to help you preview the site live as you make changes. I used these while editing my code. 
 
-4. With this extension, you can see the changes you make in your code live. This is a main tool that I used for this project. 
+3. Now you are free to edit the file and custom it the site if you would like. There is a JS file, but it is empty, as I plan to use JS later to upgrade this site. For now I have nothing in it, but you are free to edit it and add your own JS into the website. Please credit this template should you use it.
 
 ## AI Usage
 
