@@ -5,9 +5,9 @@ This is a personal portfolio website that I built to showcase my work to the pub
 
 ## Overview
 
-**Built With:** HTML, CSS
+**Built With:** HTML, CSS, JS
 
-The website has 6 sections that I made in HTML and CSS:
+The website has 6 sections that I made:
 1. Hero
 2. About Me
 3. Projects
@@ -15,7 +15,7 @@ The website has 6 sections that I made in HTML and CSS:
 5. Achievements
 6. Contact
 
-The website also has a navbar which stays at the top of the page at all times, and a footer which appears at the very end of the page. Each section has its own unique design which I found best to showcase the information that it has. All information is displayed on 'cards', each which have a glassmorphism design applied to them. Each card also has a hover effect applied to it, so when you hover over the card, it will enlarge slightly and a shadow effect will appear underneath it. Each title heading has a gradient color applied to it so that the text looks pretty. The theme is quite simple: Its kinda like dark minimalist with pastel rainbow hints everywhere. Overall, it was made in HTML and CSS.
+The website also has a navbar which stays at the top of the page at all times, and a footer which appears at the very end of the page. Each section has its own unique design which I found best to showcase the information that it has. All information is displayed on 'cards', each which have a glassmorphism design applied to them. Each card also has a hover effect applied to it, so when you hover over the card, it will enlarge slightly and a shadow effect will appear underneath it. Each title heading has a gradient color applied to it so that the text looks pretty. Also, the cursor is like a little dot instead of the regular cursor, which enlarge and changes color when hovering over a link so that the user knows that they can click on this. The theme is quite simple: Its kinda like dark minimalist with pastel rainbow hints everywhere. Overall, it was made in HTML, CSS, and JS.
 
 ## How to Run It
 
