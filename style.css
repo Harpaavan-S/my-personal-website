@@ -33,6 +33,10 @@ body {
     line-height: 1.6;
 }
 
+body, p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -40,6 +44,16 @@ html {
 section {
     scroll-margin-top: 100px;
 }
+
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+h3 {
+    font-family: "Quantico", sans-serif;
+}
+
+
 
 nav {
     display: flex;
@@ -97,7 +111,6 @@ nav {
 
 .nav-links a:hover {
     color: rgba(250, 250, 250, 0.9);
-
 }
 
 #hero {
@@ -110,16 +123,25 @@ nav {
 }
 
 #hero h1 {
-    font-size: 64px;
-    background-image: linear-gradient(to right, #ff9ec5, #FCA8FF, #C6C0FF, #8AF9FF, #9effb8, #f2ffa8, #ffd59a, #ff9c8a);
+    font-size: 90px;
+    background-image: linear-gradient(to right, #ff80b3, #fb80ff, #8e82ff, #7ab4ff, #7ef9ff, #80ffa2, #ecff7e, #ffcb82, #ff9481, #ff80b3);
     background-clip: text;
-    width: max-content;
+    background-size: 200% 100%;
     color: transparent;
+    animation: gradientShift 4s linear infinite;
+    font-family: 'Playfair Display', serif;
+}
+
+@keyframes gradientShift {
+    to {
+        background-position: 200% center;
+    }
 }
 
 #hero p {
     font-size: 25px;
     color: rgba(250, 250, 250, 0.75);
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #about {
@@ -128,12 +150,19 @@ nav {
 }
 
 #about h2 {
-    font-size: 36px;
-    margin-bottom: 80px;
-    background-image: linear-gradient(to right, #FF9E9E, #FCA8FF, #C6C0FF, #8AF9FF);
+    font-size: 50px;
+    margin-bottom: 60px;
+    background-image: linear-gradient(to right, #FF9E9E, #FCA8FF, #C6C0FF, #8AF9FF, #C6C0FF, #FCA8FF, #FF9E9E);
+    background-size: 200% 100%;
     background-clip: text;
     color: transparent;
-    width: max-content;
+    animation: gradientHeadings 4s linear infinite;
+}
+
+@keyframes gradientHeadings {
+    to {
+        background-position: 200% center;
+    }
 }
 
 .about-stuff {
@@ -145,7 +174,8 @@ nav {
 
 .aboutme-card {
     flex: 1;
-    font-size: 17px;
+    font-size: 19px;
+    font-family: "Average Sans", sans-serif;
     color: rgba(250, 250, 250, 0.75);
     padding: 20px 25px;
     border: 1px solid rgba(225, 225, 225, 0.5);
@@ -163,8 +193,9 @@ nav {
 }
 
 .harpaavan {
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 1000;
+    font-family: "Average Sans", sans-serif;
     color: rgb(255, 243, 224);
     background-image: linear-gradient(to right, #ff9ec5, #FCA8FF, #C6C0FF, #8AF9FF, #9effb8, #f2ffa8, #ffd59a, #ff9c8a);
     background-clip: text;
@@ -204,7 +235,7 @@ nav {
     background-color: rgba(173, 173, 173, 0.1);
     backdrop-filter: blur(10px);
     margin-top: 7px;
-    margin-bottom: 3px;
+    margin-bottom: 4px;
     margin-left: 5px;
     margin-right: 5px;
     transition: 0.3s;
@@ -213,6 +244,7 @@ nav {
 .skill-icon span {
     opacity: 0;
     font-size: 10px;
+    font-family: 'Josefin San', sans-serif;
     position: absolute;
     left: 50%;
     bottom: 110%;
@@ -228,6 +260,11 @@ nav {
     background-color: rgba(200, 200, 200, 0.25);
     backdrop-filter: blur(10px);
     pointer-events: none;
+}
+
+.skill-icon.below span {
+    bottom: auto;
+    top: 110%;
 }
 
 .skill-icon:hover {
@@ -259,12 +296,20 @@ nav {
 
 #projects h2 {
     margin-bottom: 60px;
-    font-size: 36px;
-    background-image: linear-gradient(to right, #FF9E9E, #FCA8FF, #C6C0FF, #8AF9FF);
+    font-size: 50px;
+    background-image: linear-gradient(to right, #FF9E9E, #FCA8FF, #C6C0FF, #8AF9FF, #C6C0FF, #FCA8FF, #FF9E9E);
+    background-size: 200% 100%;
     background-clip: text;
     color: transparent;
-    width: max-content;
+    animation: gradientHeadings 4s linear infinite;
 }
+
+@keyframes gradientHeadings {
+    to {
+        background-position: 200% center;
+    }
+}
+
 
 .allprojects {
     display: grid;
@@ -289,8 +334,8 @@ nav {
 }
 
 .project-card h3 {
-    margin-bottom: 25px;
-    font-size: 25px;
+    margin-bottom: 20px;
+    font-size: 27px;
     background-image: linear-gradient(to right, #ffcac3, #ffdbb1, #fcffc4);
     background-clip: text;
     color: rgb(255, 243, 224);
@@ -306,6 +351,7 @@ nav {
     color: rgba(250, 250, 250, 0.75);
     transition: 0.5s;
     font-size: 16px;
+    font-family: "Average Sans", sans-serif;
 }
 
 .project-card:hover p {
@@ -344,11 +390,18 @@ nav {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-size: 36px;
-    background-image: linear-gradient(to right, #FF9E9E, #FCA8FF, #C6C0FF, #8AF9FF);
+    font-size: 50px;
+    background-image: linear-gradient(to right, #FF9E9E, #FCA8FF, #C6C0FF, #8AF9FF, #C6C0FF, #FCA8FF, #FF9E9E);
+    background-size: 200% 100%;
     background-clip: text;
     color: transparent;
-    width: max-content;
+    animation: gradientHeadings 4s linear infinite;
+}
+
+@keyframes gradientHeadings {
+    to {
+        background-position: 200% center;
+    }
 }
 
 .experiences {
@@ -364,8 +417,16 @@ nav {
     top: 0;
     bottom: 0;
     width: 2px;
-    background-image: linear-gradient(#ff9ec5, #FCA8FF, #C6C0FF, #8AF9FF, #9effb8, #f2ffa8, #ffd59a, #ff9c8a);
+    background-image: linear-gradient(#ff80b3, #fb80ff, #8e82ff, #7ab4ff, #7ef9ff, #80ffa2, #ecff7e, #ffcb82, #ff9481, #ff80b3);
+    background-size: 200% 100%;
     transform: translateX(-50%);
+    animation: gradientLine 4s linear infinite;
+}
+
+@keyframes gradientLine {
+    to {
+        background-position: 200% center;
+    }
 }
 
 .dot {
@@ -435,6 +496,7 @@ nav {
     font-size: 18px;
     color: rgba(250, 250, 250, 0.75);
     transition: 0.5s;
+    font-family: "Average Sans", sans-serif;
 }
 
 .experience-card:hover p {
@@ -468,12 +530,19 @@ nav {
 }
 
 #award h2 {
-    font-size: 36px;
+    font-size: 50px;
     margin-bottom: 60px;
-    background-image: linear-gradient(to right, #FF9E9E, #FCA8FF, #C6C0FF, #8AF9FF);
+    background-image: linear-gradient(to right, #FF9E9E, #FCA8FF, #C6C0FF, #8AF9FF, #C6C0FF, #FCA8FF, #FF9E9E);
+    background-size: 200% 100%;
     background-clip: text;
     color: transparent;
-    width: max-content;
+    animation: gradientHeadings 4s linear infinite;
+}
+
+@keyframes gradientHeadings {
+    to {
+        background-position: 200% center;
+    }
 }
 
 .award-card {
@@ -513,6 +582,7 @@ nav {
 .award-card li {
     font-size: 18px;
     color: rgba(250, 250, 250, 0.75);
+    font-family: "Average Sans", sans-serif;
 }
 
 .award-card:hover li {
@@ -528,18 +598,25 @@ nav {
 }
 
 #contact h2 {
-    background-image: linear-gradient(to right, #FF9E9E, #FCA8FF, #C6C0FF, #8AF9FF);
+    font-size: 72px;
+    background-image: linear-gradient(to right, #FF9E9E, #FCA8FF, #C6C0FF, #8AF9FF, #C6C0FF, #FCA8FF, #FF9E9E);
+    background-size: 200% 100%;
     background-clip: text;
     color: transparent;
-    width: max-content;
-    font-size: 64px;
+    animation: gradientHeadings 4s linear infinite;
+}
 
+@keyframes gradientHeadings {
+    to {
+        background-position: 200% center;
+    }
 }
 
 #contact p {
     margin-bottom: 50px;
     color: rgba(250, 250, 250, 0.75);
     font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .contact-icons-group {

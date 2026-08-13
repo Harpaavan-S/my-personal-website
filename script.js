@@ -28,3 +28,16 @@ link.forEach((link) => {
         dot.classList.remove('hover-active');
     });
 });
+
+const skillrow = document.querySelectorAll('.bloops');
+
+skillrow.forEach((row) => {
+    const icons = row.querySelectorAll('.skill-icon')
+    const firstRowTop = icons[0].offsetTop;
+
+    icons.forEach((icon) => {
+        if (icon.offsetTop > firstRowTop) {
+            icon.classList.add('below');
+        }
+    })
+})
