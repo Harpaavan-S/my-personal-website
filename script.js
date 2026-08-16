@@ -18,9 +18,9 @@ skillrow.forEach((row) => {
 
 const config = {
     brushSize: 25.0,
-    brushStrength: 1.5,
-    distortionAmount: 2.5,
-    fluidDecay: 0.9,
+    brushStrength: 2.5,
+    distortionAmount: 3,
+    fluidDecay: 0.8,
     trailLength: 0.8,
     stopDecay: 0.85,
     color1: "#4d006e",
