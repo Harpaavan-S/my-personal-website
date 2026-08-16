@@ -2,35 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor: none;
-}
-
-.cursor-dot {
-    position: fixed;
-    width: 15px;
-    height: 15px;
-    background-color: rgb(255, 255, 255);
-    top: 0;
-    left: 0;
-    pointer-events: none;
-    border-radius: 50%;
-    z-index: 150;
-    transition: 0.3s;
-    box-shadow: 0px 0px 10px 4px rgba(166, 184, 255, 0.5);
-}
-
-
-.cursor-dot.hover-active {
-    width: 20px;
-    height: 20px;
-    background-color: rgb(166, 184, 255);
 }
 
 body {
-    background-color: rgb(12, 0, 23);
+    background-color: rgb(7, 0, 23);
     color: rgb(255, 243, 224);
     font-family: sans-serif;
     line-height: 1.6;
+    position: relative;
+    width: 100vw;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><circle cx="10" cy="10" r="6" fill="white"/></svg>') 8 8, auto;
+}
+
+a {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"><circle cx="12.5" cy="12.5" r="8" fill="%23a29bfe"/></svg>') 12 12, auto;
+}
+
+.gradient-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
 }
 
 body, p {
@@ -69,11 +64,11 @@ nav {
     z-index: 100;
     background-color: rgba(173, 173, 173, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(30px);
 }
 
 .logo {
-    width: 45px;
+    width: 44px;
     height: 45px;
     display: block;
 }
@@ -175,15 +170,15 @@ nav {
     padding: 20px 25px;
     border: 1px solid rgba(225, 225, 225, 0.5);
     border-radius: 15px;
-    background-color: rgba(173, 173, 173, 0.1);
-    backdrop-filter: blur(10px);
+    background-color: rgba(173, 173, 173, 0.2);
+    backdrop-filter: blur(30px);
     transition: 0.5s;
 }
 
 .aboutme-card:hover {
-    background-color: rgba(173, 173, 173, 0.2);
+    background-color: rgba(173, 173, 173, 0.3);
     transform: scale(1.05);
-    box-shadow: 0px 0px 20px 5px rgba(173, 173, 173, 0.3);
+    box-shadow: 0px 0px 20px 5px rgba(173, 173, 173, 0.4);
     color: rgba(250, 250, 250, 0.9);
 }
 
@@ -227,8 +222,8 @@ nav {
     padding-right: 10px;
     border: 1px solid rgba(225, 225, 225, 0.5);
     border-radius: 15px;
-    background-color: rgba(173, 173, 173, 0.1);
-    backdrop-filter: blur(10px);
+    background-color: rgba(173, 173, 173, 0.2);
+    backdrop-filter: blur(30px);
     margin-top: 7px;
     margin-bottom: 4px;
     margin-left: 5px;
@@ -253,7 +248,7 @@ nav {
     border: 0.5px solid rgba(225, 225, 225, 0.5);
     border-radius: 10px;
     background-color: rgba(200, 200, 200, 0.25);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
     pointer-events: none;
 }
 
@@ -263,9 +258,9 @@ nav {
 }
 
 .skill-icon:hover {
-    background-color: rgba(173, 173, 173, 0.2);
+    background-color: rgba(173, 173, 173, 0.3);
     transform: scale(1.07);
-    box-shadow: 0px 0px 20px 3px rgba(173, 173, 173, 0.3);
+    box-shadow: 0px 0px 20px 3px rgba(173, 173, 173, 0.4);
 }
 
 .skill-icon:hover span {
@@ -316,14 +311,14 @@ nav {
     padding: 20px;
     border: 1px solid rgba(225, 225, 225, 0.5);
     border-radius: 15px;
-    background-color: rgba(173, 173, 173, 0.1);
-    backdrop-filter: blur(10px);
+    background-color: rgba(173, 173, 173, 0.2);
+    backdrop-filter: blur(30px);
     transition: 0.5s;
 }
 
 .project-card:hover {
-    background-color: rgba(173, 173, 173, 0.2);
-    box-shadow: 0px 0px 20px 5px rgba(173, 173, 173, 0.3);
+    background-color: rgba(173, 173, 173, 0.3);
+    box-shadow: 0px 0px 20px 5px rgba(173, 173, 173, 0.4);
     transform: scale(1.05);
     
 }
@@ -460,16 +455,16 @@ nav {
     padding: 25px;
     border: 1px solid rgba(225, 225, 225, 0.5);
     border-radius: 15px;
-    background-color: rgba(173, 173, 173, 0.1);
+    background-color: rgba(173, 173, 173, 0.2);
     transition: 0.5s;
     position: relative;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
 }
 
 .experience-card:hover {
     transform: scale(1.05);
-    background-color: rgba(173, 173, 173, 0.2);
-    box-shadow: 0px 0px 20px 5px rgba(173, 173, 173, 0.3);
+    background-color: rgba(173, 173, 173, 0.3);
+    box-shadow: 0px 0px 20px 5px rgba(173, 173, 173, 0.4);
 }
 
 .experience-card h3 {
@@ -545,16 +540,16 @@ nav {
     padding: 20px;
     border: 1px solid rgba(225, 225, 225, 0.5);
     border-radius: 15px;
-    background-color: rgba(173, 173, 173, 0.1);
-    backdrop-filter: blur(10px);
+    background-color: rgba(173, 173, 173, 0.2);
+    backdrop-filter: blur(30px);
     margin-bottom: 20px;
     transition: 0.5s;
 }
 
 .award-card:hover {
     transform: scale(1.05);
-    box-shadow: 0px 0px 20px 5px rgba(173, 173, 173, 0.3);
-    background-color: rgba(173, 173, 173, 0.2);
+    box-shadow: 0px 0px 20px 5px rgba(173, 173, 173, 0.4);
+    background-color: rgba(173, 173, 173, 0.3);
 }
 
 .award-card h3 {
@@ -624,7 +619,7 @@ nav {
     border-radius: 50%;
     border: 1px solid rgba(225, 225, 225, 0.5);
     background-color: rgba(173, 173, 173, 0.1);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
     transition: 0.3s;
     padding-top: 20px;
     padding-bottom: 15px;
@@ -656,8 +651,8 @@ footer {
     font-size: 20px;
     color: rgba(250, 250, 250, 0.75);
     border-top: 1px solid rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(15px);
-    background-color: rgba(173, 173, 173, 0.05);
+    backdrop-filter: blur(30px);
+    background-color: rgba(173, 173, 173, 0.1);
     width: 100%;
 }
 

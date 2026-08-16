@@ -5,7 +5,7 @@ This is a personal portfolio website that I built to showcase my work to the pub
 
 ## Overview
 
-**Built With:** HTML, CSS, JS
+**Built With:** HTML, CSS, JS, GLSL
 
 The website has 6 sections that I made:
 1. Hero
@@ -15,7 +15,7 @@ The website has 6 sections that I made:
 5. Achievements
 6. Contact
 
-The website also has a navbar which stays at the top of the page at all times, and a footer which appears at the very end of the page. Each section has its own unique design which I found best to showcase the information that it has. All information is displayed on 'cards', each which have a glassmorphism design applied to them. Each card also has a hover effect applied to it, so when you hover over the card, it will enlarge slightly and a shadow effect will appear underneath it. Each title heading has a gradient color applied to it so that the text looks pretty. Also, the cursor is like a little dot instead of the regular cursor, which enlarge and changes color when hovering over a link so that the user knows that they can click on this. The theme is quite simple: Its kinda like dark minimalist with pastel rainbow hints everywhere. Overall, it was made in HTML, CSS, and JS.
+The website also has a navbar which stays at the top of the page at all times, and a footer which appears at the very end of the page. Each section has its own unique design which I found best to showcase the information that it has. All information is displayed on 'cards', each which have a glassmorphism design applied to them. Each card also has a hover effect applied to it, so when you hover over the card, it will enlarge slightly and a shadow effect will appear underneath it. Each title heading has a gradient color applied to it so that the text looks pretty. Also, the cursor is like a little dot instead of the regular cursor, which enlarge and changes color when hovering over a link so that the user knows that they can click on this. One really cool thing that I added onto this was a Shader Background. For this, I used a tutorial because I do not know how to write my own shaders and scripts for that either. I also used AI for some debugging, but the effect turned out super cool. One main highlight is that the background is interactive, so it like morphs based on your cursor, so I think that was really awesome. It took a lot of time, and I really put a lot of effort into it, so I am super happy with the result. My whole website got boosted by that. Overall, the portfolio is made in HTML, CSS, and JS.
 
 ## How to Run It
 
