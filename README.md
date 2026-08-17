@@ -1,11 +1,11 @@
 # My Portfolio
-This is a personal portfolio website that I built to showcase my work to the public. It is one of the first websites that I coded by myself, so this project acted as a gateway for me into HTML and CSS. This is also one of the first projects that I have consistently been updating to GitHub, making frequent commits to track my progress.
+This is a personal portfolio website that I built to showcase my work to the public. It is one of the first websites that I coded by myself, so this project acted as a gateway for me into HTML and CSS. This is also one of the first projects that I have consistently been updating to GitHub, making frequent commits to track my progress, and also one of the first launched to GitHub Pages. 
 
 **View the Project Here:** https://harpaavan-s.github.io/my-personal-website/
 
 ## Overview
 
-**Built With:** HTML, CSS, JS, GLSL
+**Built With:** The website is mainly built with HTML, CSS, and JS. I also made a shader background which uses GLSL, WebGL, and Three.js. The background was built with Vite. 
 
 The website has 6 sections that I made:
 1. Hero
@@ -15,26 +15,38 @@ The website has 6 sections that I made:
 5. Achievements
 6. Contact
 
-The website also has a navbar which stays at the top of the page at all times, and a footer which appears at the very end of the page. Each section has its own unique design which I found best to showcase the information that it has. All information is displayed on 'cards', each which have a glassmorphism design applied to them. Each card also has a hover effect applied to it, so when you hover over the card, it will enlarge slightly and a shadow effect will appear underneath it. Each title heading has a gradient color applied to it so that the text looks pretty. Also, the cursor is like a little dot instead of the regular cursor, which enlarge and changes color when hovering over a link so that the user knows that they can click on this. One really cool thing that I added onto this was a Shader Background. For this, I used a tutorial because I do not know how to write my own shaders and scripts for that either. I also used AI for some debugging, but the effect turned out super cool. One main highlight is that the background is interactive, so it like morphs based on your cursor, so I think that was really awesome. It took a lot of time, and I really put a lot of effort into it, so I am super happy with the result. My whole website got boosted by that. Overall, the portfolio is made in HTML, CSS, and JS.
+**Here are some features of my website:** 
+- The website has an interactive navbar which links to each section in the webpage. There is also a logo in the corner which will link to the Hero section. The navbar has a frosted glass look, which makes blurs the background behind it. 
+- The title in the Hero section (which is my name), has a rainbow gradient applied to it. The cool part is that the gradient moves and loops in the name, so the gradient is always moving slowly. This is actually applied to all of the section headings in the webpage. 
+- Each card in every section has a frosted glass look applied to it, so it will blur the background behind it. They also enlarge and brighten when you hover over them. 
+- The cursor is a small white dot instead of a regular cursor, which enlarges and turns light purple when hovering over a link to communicate to the user that the link is clickable and will lead somewhere. 
+- One of the main highlights is the background, which is a shader background made with GLSL, WebGL, and Three.js. The background is an animated gradient. It is also interactive as it will respond to the cursor on the screen. It is one of the key aspects that really make this website shine. 
 
-## How to Run It
+## How to Run It Locally
 
-To view the website, you can use the link attached at the top, or this one: https://harpaavan-s.github.io/my-personal-website/ (they are the same)
+**Prerequisites:** You must have Node.js installed on your computer as you will need it to run this website. If you do not, install it from the official site to continue. 
 
-If you would like to clone the repository:
-1. Run the following code in your code editor:
+**Steps to run it locally:**
+1. Run the following code in your code editor to clone the repository:
 ```
 git clone https://github.com/Harpaavan-S/my-personal-website
 ```
-
-2. Open the files in your preferred editor. From here, you can edit the code for the website.
-
-2. If you would like to run it from your computer, you can host the `index.html` file in your default browser to see the changes. You can also install any extensions in your editor to help you preview the site live as you make changes. I used these while editing my code. 
-
-3. Now you are free to edit the file and custom it the site if you would like. Please credit this template should you use it.
+2. Tab into the repository directory:
+```
+cd my-personal-website
+```
+3. Install dependencies. This will automatically install everything you need for the project:
+```
+npm install
+```
+4. Run the server to host it locally:
+```
+npm dev run
+```
+5. After, your terminal will probably show a local host website that you can copy paste into your browser, and there you can see changes to your website as you work on it. 
 
 ## AI Usage
 
-AI was mainly used to help gain basic understanding of HTML and CSS. I then applied whatever I learned to my website. This was especially true for sections and class in HTML and display and positioning in CSS. Because this project was for me to learn HTML and CSS, AI only assisted me, and I did not copy paste anything from AI. If anything it helped me become familiar with these two languages, so that if I want to make something different to my website, I can look at resources from the internet and apply any concepts I see to my own code. This was especially true for adding a gradient to my text and hover effects to my cards in CSS. I also used AI to help with JS, because I have no experience in JS, and it was just really confusing for me at first. But I mainly just used it for some visuals, and I also understood and learned a lot about JS and how to write it during this process. . So I used AI as a support in this project, but not to write any of my code for me.
+AI was mainly used to help gain basic understanding of HTML and CSS. I used AI to help learn some fundamental skills, and then independently applied those to my website to build my portfolio. For the shader background, I used a tutorial to build it, but I did need some AI help with debugging the code as I was facing some problems with it. I only used AI because I have no idea how to write shaders and how to implement them into JS. Overall, AI was used only to assist and support me, not to write any code for me. I did not copy paste anything from AI.
 
 ### Enjoy the Website!!!
