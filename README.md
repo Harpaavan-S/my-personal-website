@@ -29,7 +29,7 @@ The website has 6 sections that I made:
 **Steps to run it locally:**
 1. Run the following code in your code editor to clone the repository:
 ```
-git clone https://github.com/Harpaavan-S/my-personal-website
+git clone https://github.com/Harpaavan-S/my-personal-website.git
 ```
 2. Tab into the repository directory:
 ```
