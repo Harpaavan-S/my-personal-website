@@ -49,4 +49,8 @@ npm dev run
 
 AI was mainly used to help gain basic understanding of HTML and CSS. I used AI to help learn some fundamental skills, and then independently applied those to my website to build my portfolio. For the shader background, I used a tutorial to build it, but I did need some AI help with debugging the code as I was facing some problems with it. I only used AI because I have no idea how to write shaders and how to implement them into JS. Overall, AI was used only to assist and support me, not to write any code for me. I did not copy paste anything from AI.
 
+## Credits
+
+I would like to credit Codegrid, as I used their video tutorial to make my shader background. 
+
 ### Enjoy the Website!!!
