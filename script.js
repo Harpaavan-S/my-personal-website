@@ -23,7 +23,7 @@ const config = {
     fluidDecay: 0.98,
     trailLength: 0.8,
     stopDecay: 0.85,
-    color1: "#4d006e",
+    color1: "#4e0070",
     color2: "#25004f",
     color3: "#000000",
     color4: "#06003e",
