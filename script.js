@@ -2,6 +2,17 @@ import * as THREE from "three";
 
 import { vertexShader, fluidShader, displayShader } from "./shaders.js";
 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    var clipAmount = 100 - scrolled;
+    document.querySelector(".timeline").style.clipPath = "inset(0 " + clipAmount +"% 0 0)";
+}
+
+
 
 const skillrow = document.querySelectorAll('.bloops');
 
