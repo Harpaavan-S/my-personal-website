@@ -41,7 +41,7 @@ npm install
 ```
 4. Run the server to host it locally:
 ```
-npm dev run
+npm run dev
 ```
 5. After, your terminal will probably show a local host website that you can copy paste into your browser, and there you can see changes to your website as you work on it. 
 
