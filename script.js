@@ -12,6 +12,16 @@ function myFunction() {
     document.querySelector(".timeline").style.clipPath = "inset(0 " + clipAmount +"% 0 0)";
 }
 
+window.addEventListener('load', () => {
+    const loader = document.getElementById('loader');
+    const heroContent = document.querySelector('.hero-content');
+
+    setTimeout(() => {
+        loader.classList.add('hidden');
+        heroContent.classList.add('visible');
+    }, 1500)
+})
+
 
 
 const skillrow = document.querySelectorAll('.bloops');
