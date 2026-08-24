@@ -20,9 +20,25 @@ window.addEventListener('load', () => {
         loader.classList.add('hidden');
         heroContent.classList.add('visible');
     }, 1500)
-})
+});
 
+const revealElements = document.querySelectorAll('.reveal')
 
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+        } else {
+            entry.target.classList.remove('visible');
+        }
+    });
+}, {
+    threshold: 0.15
+});
+
+revealElements.forEach((el) => {
+    observer.observe(el);
+});
 
 const skillrow = document.querySelectorAll('.bloops');
 
