@@ -230,7 +230,6 @@ function animate() {
 }
 
 window.addEventListener("resize", () => {
-    console.log("resize fired, resetting frameCount");
     const width = window.innerWidth;
     const height = window.innerHeight;
 
