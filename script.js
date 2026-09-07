@@ -62,7 +62,6 @@ document.addEventListener("DOMContentLoaded", () => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
             const imageURL = import.meta.env.BASE_URL + link.getAttribute('href').replace(/^\//, '');
-            console.log("Trying to load:", imageURL);
             modalImg.setAttribute("src", imageURL);
             modal.classList.add("open");
         });
