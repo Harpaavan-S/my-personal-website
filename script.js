@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
     links.forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
-            const imageURL = link.getAttribute('href');
+            const imageURL = import.meta.env.BASE_URL + link.getAttribute('href').replace(/^\//, '');
             modalImg.setAttribute("src", imageURL);
             modal.classList.add("open");
         });
