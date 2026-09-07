@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#0c0126">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -42,7 +43,18 @@
         <section id="about">
             <h2 class="reveal">About Me</h2>
             <div class="about-stuff">
-                <p class="aboutme-card reveal">Hi! I'm <span class="harpaavan">Harpaavan</span>. I am a high school student in Grade 10. I am currently attending STEM Innovation Academy High School (STEMIA), which is a STEM-focused school in Calgary, AB, Canada. At STEMIA, I like to take the opportunity to explore different fields of STEM and use the resources available to build cool projects. This has led to me having an expansive skill set, ranging from graphic design, to 3D modeling, to drone flying, and much more. I like to participate in science fairs and mathematics competitions to showcase my work and add a competitive aspect into my projects. Outside of school, I like to volunteer and work with younger kids at the library. I also enjoy biking and playing tennis to keep myself active. As I go through high school, my aim is to expand my skill set, and apply some of my skills to real-world scenarios as I start to shape out my career path.</p>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="front-card">
+                            <p>Hi! I'm <span class="harpaavan">Harpaavan</span>. I am a high school student in Grade 10. I am currently attending STEM Innovation Academy High School (STEMIA), which is a STEM-focused school in Calgary, AB, Canada. At STEMIA, I like to take the opportunity to explore different fields of STEM and use the resources available to build cool projects. This has led to me having an expansive skill set, ranging from graphic design, to 3D modeling, to drone flying, and much more. I like to participate in science fairs and mathematics competitions to showcase my work and add a competitive aspect into my projects. Outside of school, I like to volunteer and work with younger kids at the library. I also enjoy biking and playing tennis to keep myself active. As I go through high school, my aim is to expand my skill set, and apply some of my skills to real-world scenarios as I start to shape out my career path.</p>
+                        </div>
+                        <div class="back-card">
+                            <img src="Self-Portrait/Harpaavan School Photo 2026.png" alt="Self-Portrait" class="photo"/>
+                        </div>
+                    </div>
+                </div>
+                        <!-- <p class="aboutme-card reveal">Hi! I'm <span class="harpaavan">Harpaavan</span>. I am a high school student in Grade 10. I am currently attending STEM Innovation Academy High School (STEMIA), which is a STEM-focused school in Calgary, AB, Canada. At STEMIA, I like to take the opportunity to explore different fields of STEM and use the resources available to build cool projects. This has led to me having an expansive skill set, ranging from graphic design, to 3D modeling, to drone flying, and much more. I like to participate in science fairs and mathematics competitions to showcase my work and add a competitive aspect into my projects. Outside of school, I like to volunteer and work with younger kids at the library. I also enjoy biking and playing tennis to keep myself active. As I go through high school, my aim is to expand my skill set, and apply some of my skills to real-world scenarios as I start to shape out my career path.</p>
+                        <img src="Self-Portrait/Harpaavan School Photo 2026.png" alt="Self-Portrait" /> -->
                 <div class="skills">
                     <div class="skill-part reveal">
                         <h3>Software Skills</h3>
@@ -176,28 +188,28 @@
                 <div class="project-card reveal">
                     <h3>AstroBounce</h3>
                     <p>AstroBounce is an endless platformer game that I developed in Unity 2D and coded with C#. This is a space-themed game, in which there is an astronaut who bounds through the universe on cosmic asteroid platforms. The player is controlled by the space button. The objective is to get the highest score. All artwork is original and made in LibreSprite and Pixen.</p>
-                    <a href="https://play.unity.com/en/games/bf8dfc49-bfb1-4866-b98f-47a955be2e97/astrobounce" target="_blank" rel="noopener noreferrer">Play AstroBounce <span class="arrow">→</span></a>
+                    <span class="arrow"><a href="https://play.unity.com/en/games/bf8dfc49-bfb1-4866-b98f-47a955be2e97/astrobounce" target="_blank" rel="noopener noreferrer">Play AstroBounce →</a></span>
                     <br>
-                    <a href="https://github.com/Harpaavan-S/astro-bounce" target="_blank" rel="noopener noreferrer">GitHub Repository <span class="arrow">→</span></a>
+                    <span class="arrow"><a href="https://github.com/Harpaavan-S/astro-bounce" target="_blank" rel="noopener noreferrer">GitHub Repository →</a></span>
                 </div>
                 <div class="project-card reveal">
                     <h3>Mapping Memory</h3>
                     <p>In this project, I developed a program that provided a more cheaper and accessible way to measure one's memory, helping to identify and treat memory problems early. To do this, I made 4 lab-based games that test a different aspect of one's memory. I used the Muse EEG headset to record the participants' brainwaves while playing these games and generate a report based on the results.</p>
-                    <a href="https://platform.cysf.org/project/fc8e105f-2e96-4235-9dbd-db19baf679fb/" target="_blank" rel="noopener noreferrer">View the Project <span class="arrow">→</span></a>
+                    <span class="arrow"><a href="https://platform.cysf.org/project/fc8e105f-2e96-4235-9dbd-db19baf679fb/" target="_blank" rel="noopener noreferrer">View the Project →</a></span>
                     <br>
-                    <a href="https://github.com/Harpaavan-S/mapping-memory" target="_blank" rel="noopener noreferrer">GitHub Repository <span class="arrow">→</span></a>
+                    <span class="arrow"><a href="https://github.com/Harpaavan-S/mapping-memory" target="_blank" rel="noopener noreferrer">GitHub Repository →</a></span>
                 </div>
                 <div class="project-card reveal">
                     <h3>Ambient Mood Project</h3>
                     <p>This project aims to adjust one's ambience, such as lighting and sound, to match and improve their mood. I trained a Teachable Machine model that would detect a person's mood based on body posture. This was then embedded inside an HTML website which would change color and the song playing according to the mood detected.</p>
-                    <a href="https://harpaavan-s.github.io/Cool-Mood-Project/" target="_blank" rel="noopener noreferrer">Try a Demo <span class="arrow">→</span></a>
+                    <span class="arrow"><a href="https://harpaavan-s.github.io/Cool-Mood-Project/" target="_blank" rel="noopener noreferrer">Try a Demo →</a></span>
                     <br>
-                    <a href="https://github.com/Harpaavan-S/Cool-Mood-Project" target="_blank" rel="noopener noreferrer">GitHub Repository <span class="arrow">→</span></a>
+                    <span class="arrow"><a href="https://github.com/Harpaavan-S/Cool-Mood-Project" target="_blank" rel="noopener noreferrer">GitHub Repository →</a></span>
                 </div>
                 <div class="project-card reveal">
                     <h3>Portfolio Website</h3>
-                    <p>For this project, I coded my own portfolio website to showcase all of projects and achievements over the past few years, and also have a platform to continuously update any new work. Built with HTML and CSS, this project acted as an gateway for me into the world of website design, allowing me to gain coding experience and learn how to ship my projects to the public. </p>
-                    <a href="https://github.com/Harpaavan-S/my-personal-website" target="_blank" rel="noopener noreferrer">Github Repository <span class="arrow">→</span></a>
+                    <p>For this project, I coded my own portfolio website to showcase all of projects and achievements over the past few years, and also have a platform to continuously update any new work. Built with HTML, CSS and JS, this project acted as an gateway for me into the world of website design, allowing me to gain coding experience as well be able to ship my projects to the public. </p>
+                    <span class="arrow"><a href="https://github.com/Harpaavan-S/my-personal-website" target="_blank" rel="noopener noreferrer">Github Repository →</a></span>
                 </div>
             </div>
         </section>
@@ -267,53 +279,52 @@
                 <div class="award-card reveal">
                     <h3>UCMAS Provincial Visual Competition</h3>
                     <ul>
-                        <li>2018 • Champion</li>
-                        <li>2019 • Champion</li>
-                        <li>2021 • Merit</li>
                         <li>2022 • 2nd Runner Up</li>
+                        <li>2021 • Merit</li>
+                        <li>2019 • Champion</li>
+                        <li>2018 • Champion</li>
                     </ul>
                 </div>
                 <div class="award-card reveal">
                     <h3>UCMAS National Visual Competition</h3>
                     <ul>
-                        <li>2018 • 4th Runner Up</li>
-                        <li>2019 • 4th Runner Up</li>
-                        <li>2021 • Merit</li>
                         <li>2022 • 5th Runner Up</li>
+                        <li>2021 • Merit</li>
+                        <li>2019 • 4th Runner Up</li>
+                        <li>2018 • 4th Runner Up</li>
                     </ul>
                 </div>
                 <div class="award-card reveal">
                     <h3>Kumon Reading Honour Roll</h3>
                     <ul>
-                        <li>2020 • Bronze Honour Roll</li>
-                        <li>2021 • Silver Honour Roll</li>
-                        <li>2022 • Silver Honour Roll</li>
-                        <li>2023 • Gold Honour Roll</li>
-                        <li>2024 • Platinum Honour Roll</li>
+                        <li>2024 • Platinum Honour Roll<span class="achievement-links"><a href="Achievements/Kumon Platinum Feburary 2024.png" target="_blank" class="trigger">View →</a></span></li>
+                        <li>2023 • Gold Honour Roll<span class="achievement-links"><a href="Achievements/Kumon Gold February 2023.png" target="_blank" class="trigger">View →</a></span></li>
+                        <li>2022 • Silver Honour Roll<span class="achievement-links"><a href="Achievements/Kumon Silver February 2022.png" target="_blank" class="trigger">View →</a></span></li>
+                        <li>2021 • Bronze Honour Roll<span class="achievement-links"><a href="Achievements/Kumon Bronze February 2021.png" target="_blank" class="trigger">View →</a></span></li>
                     </ul>
                 </div>
                 <div class="award-card reveal">
                     <h3>Gauss Math Contest</h3>
                     <ul>
-                        <li>2025 • Certificate of Participation</li>
-                        <li>2025 • Certificate of Distinction (Top 25% in school)</li>
-                        <li>2025 • Certificate of Outstanding Achievement (Top in school)</li>
+                        <li>2025 • Certificate of Outstanding Achievement (Top in school)<span class="achievement-links"><a href="Achievements/Gauss Outstanding Achievement 2025.png" target="_blank" class="trigger">View →</a></span></li>
+                        <li>2025 • Certificate of Distinction (Top 25% in school)<span class="achievement-links"><a href="Achievements/Gauss Distinction 2025.png" target="_blank" class="trigger">View →</a></span></li>
+                        <li>2025 • Certificate of Participation<span class="achievement-links"><a href="Achievements/Gauss Participation 2025.png" target="_blank" class="trigger">View →</a></span></li>
                     </ul>
                 </div>
                 <div class="award-card reveal">
                     <h3>Transport Canada</h3>
                     <ul>
-                        <li>2026 • Basic Operations RPAS Pilot Certificate</li>
+                        <li>2026 • Basic Operations RPAS Pilot Certificate<span class="achievement-links"><a href="Achievements/PC2613296455.png" target="_blank" class="trigger">View →</a></span></li>
                     </ul>
                 </div>
                 <div class="award-card reveal">
                     <h3>UCMAS Provincial Listening Competition</h3>
                     <ul>
-                        <li>2018 • Champion</li>
-                        <li>2022 • 1st Runner Up</li>
-                        <li>2023 • 1st Runner Up</li>
-                        <li>2024 • Champion + $1000 Ticket to National Competition</li>
                         <li>2026 • 1st Runner Up</li>
+                        <li>2024 • Champion + $1000 Ticket to National Competition</li>
+                        <li>2023 • 1st Runner Up</li>
+                        <li>2022 • 1st Runner Up</li>
+                        <li>2018 • Champion</li>
                     </ul>
                 </div>
                 <div class="award-card reveal">
@@ -325,50 +336,49 @@
                 <div class="award-card reveal">
                     <h3>Kumon Reading Milestone Awards</h3>
                     <ul>
-                        <li>2023 • J by 6 Globe Award</li>
-                        <li>2024 • Graduate Kumon Reading at #1 in Canada</li>
+                        <li>2024 • Graduate Kumon Reading at #1 in Canada<span class="achievement-links"><a href="Achievements/Kumon Platinum May 2024.png" target="_blank" class="trigger">View →</a></span></li>
+                        <li>2023 • J by 6 Globe Award<span class="achievement-links"><a href="Achievements/Kumon Academic Distinction Letter.png" target="_blank" class="trigger">View →</a></span></li>
                     </ul>
                 </div>
                 <div class="award-card reveal">
                     <h3>Pascal Math Contest</h3>
                     <ul>
-                        <li>2026 • Certificate of Participation</li>
-                        <li>2026 • Certificate of Distinction (Top 25% globally)</li>
+                        <li>2026 • Certificate of Distinction (Top 25% globally)<span class="achievement-links"><a href="Achievements/Pascal Distinction 2026.png" target="_blank" class="trigger">View →</a></span></li>
                     </ul>
                 </div>
                 <div class="award-card reveal">
                     <h3>Inter-School Energy Debates</h3>
                     <ul>
-                        <li>2026 • Certificate of Participation</li>
-                        <li>2026 • Certificate of Achievement (Victory)</li>
+                        <li>2026 • Certificate of Achievement (Victory)<span class="achievement-links"><a href="Achievements/Debate Achievement 2026.png" target="_blank" class="trigger">View →</a></span></li>
+                        <li>2026 • Certificate of Participation<span class="achievement-links"><a href="Achievements/Debate Participation 2026.png" target="_blank" class="trigger">View →</a></span></li>
                     </ul>
                 </div>
                 <div class="award-card reveal">
                     <h3>Library Volunteering</h3>
                     <ul>
-                        <li>2026 • 1 Year of Service</li>
+                        <li>2026 • 1 Year of Service<span class="achievement-links"><a href="Achievements/Library 1 Year Volunteering.png" target="_blank" class="trigger">View →</a></span></li>
                     </ul>
                 </div>
                 <div class="award-card reveal">
                     <h3>UCMAS Provincial Flash Competition</h3>
                     <ul>
-                        <li>2019 • Merit</li>
-                        <li>2022 • Champion</li>
                         <li>2025 • 1st Runner Up</li>
+                        <li>2022 • Champion</li>
+                        <li>2019 • Merit</li>
                     </ul>
                 </div>
                 <div class="award-card reveal">
                     <h3>UCMAS Abacus Math Program</h3>
                     <ul>
-                        <li>2023 • Baccalaureate Graduate (Highest Degree)</li>
+                        <li>2023 • Baccalaureate Graduate (Highest Degree)<span class="achievement-links"><a href="Achievements/UCMAS Baccalaurate Completion.png" target="_blank" class="trigger">View →</a></span></li>
                     </ul>
                 </div>
                 <div class="award-card reveal">
                     <h3>Calgary Youth Science Fair (CYSF)</h3>
                     <ul>
-                        <li>2025 • Gold Medal</li>
-                        <li>2026 • Gold Medal</li>
                         <li>2026 • CYSF Top Junior Life Science Stage Award</li>
+                        <li>2026 • Gold Medal<span class="achievement-links"><a href="Achievements/CYSF 2026 Gold.png" target="_blank" class="trigger">View →</a></span></li>
+                        <li>2025 • Gold Medal<span class="achievement-links"><a href="Achievements/CYSF 2025 Gold.png" target="_blank" class="trigger">View →</a></span></li>
                     </ul>
                 </div>
                 <div class="award-card reveal">
@@ -380,15 +390,26 @@
                 <div class="award-card reveal">
                     <h3>STEM Innovation Academy Junior High</h3>
                     <ul>
-                        <li>2026 • Gold Honour Roll</li>
+                        <li>2026 • Gold Honour Roll<span class="achievement-links"><a href="Achievements/STEMIA Grade 9 Honour Roll 2025-2026.png" target="_blank" class="trigger">View →</a></span></li>
                     </ul>
                 </div>
                 <div class="award-card reveal">
                     <h3>LEAD</h3>
                     <ul>
-                        <li>2024 • LEAD Certification</li>
-                        <li>2026 • LEAD 2.0 Certification</li>
+                        <li>2026 • LEAD 2.0 Certification<span class="achievement-links"><a href="Achievements/LEAD 2.0 Certificate.png" target="_blank" class="trigger">View →</a></span></li>
+                        <li>2024 • LEAD Certification<span class="achievement-links"><a href="Achievements/LEAD Certificate.png" target="_blank" class="trigger">View →</a></span></li>
                     </ul>
+                </div>
+                <div class="award-card reveal">
+                    <h3>Hack Club Stardance</h3>
+                    <ul>
+                        <li>2026 • Certificate of Achievement<span class="achievement-links"><a href="Achievements/stardance-certificate-H2J8G4.png" target="_blank" class="trigger">View →</a></span></li></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="imageModal" class="modal">
+                <div class="modal-content">
+                    <img id="modalImg" src="" alt="Certificate">
                 </div>
             </div>
         </section>

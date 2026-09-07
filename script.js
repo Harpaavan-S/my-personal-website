@@ -53,11 +53,33 @@ skillrow.forEach((row) => {
     })
 })
 
+document.addEventListener("DOMContentLoaded", () => {
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImg');
+    const links = document.querySelectorAll('.trigger');
+
+    links.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const imageURL = link.getAttribute('href');
+            modalImg.setAttribute("src", imageURL);
+            modal.classList.add("open");
+        });
+    });
+
+    modal.addEventListener('click', (e) => {
+        if (e.target !== modalImg) {
+            modal.classList.remove("open")
+        };
+    });
+});
+
+
 const config = {
     brushSize: 25.0,
     brushStrength: 2,
     distortionAmount: 3,
-    fluidDecay: 0.98,
+    fluidDecay: 0.95,
     trailLength: 0.8,
     stopDecay: 0.85,
     color1: "#4e0070",
@@ -241,5 +263,6 @@ window.addEventListener("resize", () => {
     fluidTarget2.setSize(width, height);
     frameCount = 0;
 });
+
 
 animate();
